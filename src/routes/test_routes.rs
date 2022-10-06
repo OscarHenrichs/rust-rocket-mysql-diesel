@@ -9,12 +9,12 @@ pub struct ProductQuery {
 }
 
 #[get("/")]
-pub async fn get_hellow() -> Value {
+pub async fn get_hellow() -> Json<Value> {
     json!("Hello, world!")
 }
 
 #[get("/hello/<seconds>")]
-pub async fn get_hellow_sleep(seconds: u64) -> Value {
+pub async fn get_hellow_sleep(seconds: u64) -> Json<Value> {
     sleep(Duration::from_secs(seconds)).await;
     json!("Hello, world!")
 }

@@ -7,7 +7,7 @@ edition = "2021"
 
 [dependencies]
 rocket = { version = "0.5.0-rc.1", features = ["json"] }
-diesel = { version = "1.4.4", features = ["mysql", "chrono"] }
+diesel = { version = "1.4.4", features = ["mysql", "chrono", "r2d2"] }
 dotenv = "0.15.0"
 chrono = "^0"
 clap = { version = "3.1.9", features = ["derive"] }
