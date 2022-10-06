@@ -1,0 +1,14 @@
+{
+    "folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../youtube-rust/ActixWebTaskService"
+		},
+		{
+			"path": "../youtube-rust/Rustflix"
+		}
+	],
+    "settings": {}
+}
